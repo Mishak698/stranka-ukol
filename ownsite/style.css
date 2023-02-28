@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border: 1px solid;
+}
+
+.nine {
+    height: 80px;
+    width: auto;
+}
+.cayman {
+    height: 80px;
+    width: auto;
+}
+.panamera {
+    height: 80px;
+    width: auto;
+}
+.taycan {
+    height: 80px;
+    width: auto;
+}
+
+.models {
+    display: flex;
+    justify-content: space-between;
+}
+
+.porscheBack {
+    height: 100%;
+    width: 1664px;
+}
+
+.test {
+    width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left; 
+  font-family: 'Lato', sans-serif;
+}
+
+.cayman-photo {
+    padding-left: 100px;
+    text-align: center;
+}
+
+.text-photo {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: lightgray;
+}
+
+.photo {
+    background-color: #353839;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+.cayman-text {
+    margin-left: 3%;
+    font-family: 'Lato', sans-serif;
+}
+
+.cayman-specs {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.left {
+    float: left;
+}
+
+.right-vid-cayman1{
+    float: right;
+    width: 60%;
+    height: auto;
+    margin-left: 60px;
+}
+.right-vid-t{
+    float: right;
+    width: 70%;
+    height: auto;
+    margin-left: 60px;
+}
+.cayman-video {
+    margin-left: 3%;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+
+  }
+  
+  .grid-item:hover .overlay {
+    opacity: 1;
+  }
+.photo-t {
+    background-color: #353839;
+    text-align: center;
+    height: 700px;
+}
+.t-photo {
+    padding-left: 100px;
+    text-align: center;
+
+}
+.text-photo-t {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: lightgray;
+   
+}
+
+.grid-container2 {
+    margin-top: 32%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
