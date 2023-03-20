@@ -166,3 +166,14 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
+
+.vid-design911 {
+    height: auto;
+    width: 193.3vh;
+}
+
+.panamera-photo {
+
+    height: auto;
+    width: 193.3vh;
+}
